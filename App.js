@@ -1,5 +1,5 @@
 import {View, Text, StyleSheet, SafeAreaView, ScrollView, Image} from 'react-native';
-import TextComponent from './components/TextXomponents';
+import TextComponent from './Components/TextComponent';
 
 const App = () => {
   return(
@@ -23,17 +23,24 @@ const styles = StyleSheet.create({
     backgroundColor: '#487eb0',
   },
   title: {
-    fontSize: 20,
+    fontSize: 24,
     fontWeight: 'bold',
+    marginTop: 20,
+    marginBottom: 10,
   },
   image: {
-    width: 100,
-    height: 100
+    width: 200,
+    height: 200,
+    marginBottom: 20,
+
   },
   text: {
-    fontSize: 14,
+    fontSize: 16,
     fontWeight: 'normal',
     color: '#dfe6e9',
+    textAlign: 'center',
+    paddingHorizontal: 20,
+    marginBottom: 20,
   }
 
 });
